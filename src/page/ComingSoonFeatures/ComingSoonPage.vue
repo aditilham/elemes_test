@@ -1,10 +1,13 @@
 <template>
-  <router-view />
+  <div>
+    Coming Soon
+  </div>
 </template>
 
 <script>
 export default {
-  name: 'App',
+  name: "ComingSoonPage"
+
 }
 </script>
 

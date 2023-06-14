@@ -1,10 +1,13 @@
 <template>
-  <router-view />
+  <div>
+    Page not found
+
+  </div>
 </template>
 
 <script>
 export default {
-  name: 'App',
+  name: "404Page"
 }
 </script>
 
