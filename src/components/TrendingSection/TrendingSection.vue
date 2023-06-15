@@ -1,14 +1,14 @@
 <template>
   <div>
-    <h2 class="text-2xl md:text-[38px] font-bold py-5 leading-[30px] md:leading-[50px]">
-      Browser Our Trending <br>
+    <h2 class="text-2xl md:text-[38px] text-dark font-bold py-5 leading-[30px] md:leading-[50px]">
+      Browse Our Trending <br>
       <span class="text-primary-green">
         Receipt
       </span>
     </h2>
     <div class="grid grid-cols-1 md:grid-cols-4 gap-x-5 gap-y-10">
       <router-link :to="{name: 'ComingSoon'}" v-for="(item, index) in data" :key="index"  @mouseover="hoveredIndex = index" @mouseleave="hoveredIndex = null"
-      class="w-full px-5 rounded-[17px] py-5 shadow-lg transform transition duration-500 hover:scale-105 relative" :style="`background-color: ${item.bgColor}`">
+      class="w-full px-5 rounded-[17px] py-5 shadow-lg transform transition duration-500 relative" :style="`background-color: ${item.bgColor}`">
       <img v-if="getBackgroundStyle(index)" class="background-img" src="@/assets/images/background.png" alt="">
         <trending-card :item="item" />
       </router-link>

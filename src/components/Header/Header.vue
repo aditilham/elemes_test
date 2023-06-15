@@ -1,7 +1,9 @@
 <template>
   <div :class="{ 'scrolled': !view.atTopOfPage, 'atTopNav': view.atTopOfPage }" class="w-full flex flex-wrap justify-between items-center fixed left-0 top-0 px-5 md:px-10 flex-wrap z-50">
     <div class="w-4/12 md:w-auto">
-      <img class="w-[150px] md:w-auto" src="../../assets/images/elemes-logo.png" alt="">
+      <router-link :to="{name: 'Home'}">
+        <img class="w-[150px] md:w-auto" src="../../assets/images/elemes-logo.png" alt="">
+      </router-link>
     </div>
     <div class="w-auto hidden md:block">
       <nav class="">
@@ -18,7 +20,7 @@
               <span v-if="menu.hot" class="absolute -top-2 right-4 px-2 py-1 rounded-lg bg-[#E7462D] text-white">
                 <text-extra-extra-small-bold text="Hot" />
               </span>
-              <span class="text-[#757575] text-sm px-4 font-medium">{{menu.title}}</span>
+              <span class="text-soft-gray text-sm px-4 font-medium">{{menu.title}}</span>
             </router-link>
           </div>
         </div>
@@ -27,7 +29,7 @@
     <div class="w-auto md:flex md:space-x-5 md:items-center">
       <div class="hidden md:block">
         <router-link :to="{name: 'ComingSoon'}">
-          <text-small-md text="Masuk" />
+          <text-small-md class="text-dark" text="Masuk" />
         </router-link>
       </div>
       <div>
