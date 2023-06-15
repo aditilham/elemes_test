@@ -1,10 +1,10 @@
 <template>
-  <div class="w-full flex justify-between items-center fixed left-0 top-0 px-5 md:px-14 flex-wrap z-50">
+  <div :class="{ 'scrolled': !view.atTopOfPage, 'atTopNav': view.atTopOfPage }" class="w-full flex justify-between items-center fixed left-0 top-0 px-5 md:px-14 flex-wrap z-50">
     <div>
       <img class="w-[150px] md:w-auto" src="../../assets/images/elemes-logo.png" alt="">
     </div>
     <div class="hidden md:block">
-      <nav :class="{ 'scrolled': !view.atTopOfPage, 'atTopNav': view.atTopOfPage }" class="">
+      <nav class="">
         <div class="top-navbar inline-flex grow w-auto" id="navigation">
           <div v-bind:class="
           {
@@ -66,7 +66,7 @@ export default {
   },
   methods: {
     handleScroll(){
-      if (window.pageYOffset>250){
+      if (window.pageYOffset>100){
         if(this.view.atTopOfPage) this.view.atTopOfPage = false
       } else {
         if(!this.view.atTopOfPage) this.view.atTopOfPage = true
