@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "Pizza Paperoni",
+    "category": "Pizza",
+    "star": 4,
+    "image": "pizza-1.png",
+    "bgColor": "#E6F3F5"
+  },
+  {
+    "id": 2,
+    "name": "Pizza Meat",
+    "category": "Pizza",
+    "star": 3,
+    "image": "pizza-2.png",
+    "bgColor": "#E6F3F5"
+  },
+  {
+    "id": 3,
+    "name": "Donner Kebab",
+    "category": "Kebab",
+    "star": 5,
+    "image": "kebab-1.png",
+    "bgColor": "#EAEEFA"
+  },
+  {
+    "id": 4,
+    "name": "Salmon Roll",
+    "category": "Salmon",
+    "star": 4,
+    "image": "salmon-1.png",
+    "bgColor": "#F9EEF3"
+  },
+  {
+    "id": 5,
+    "name": "Cupcake Choco",
+    "category": "Cupcake",
+    "star": 4,
+    "image": "cupcake-1.png",
+    "bgColor": "#F0FEEB"
+  },
+  {
+    "id": 6,
+    "name": "Doughnut Milk",
+    "category": "Doughnut",
+    "star": 5,
+    "image": "doughnut-1.png",
+    "bgColor": "#F3F7D9"
+  },
+  {
+    "id": 7,
+    "name": "Doughnut Unicorn",
+    "category": "Doughnut",
+    "star": 4,
+    "image": "doughnut-2.png",
+    "bgColor": "#F3F7D9"
+  },
+  {
+    "id": 8,
+    "name": "Kathi Kebab",
+    "category": "Kebab",
+    "star": 4,
+    "image": "kebab-2.png",
+    "bgColor": "#EAEEFA"
+  }
+]

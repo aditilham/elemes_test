@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2 class="text-2xl md:text-[38px] font-bold px-10 py-5 leading-[30px] md:leading-[50px]">
+    <h2 class="text-2xl md:text-[38px] font-bold px-5 md:px-10 py-5 leading-[30px] md:leading-[50px]">
       Browser Our Category <br>
       <span class="text-primary-green">
         Receipt
