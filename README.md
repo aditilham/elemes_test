@@ -1,6 +1,6 @@
 # Elemes.id Technical test
 
-[![Vue 3](https://img.shields.io/badge/vue-3-blue)](https://vuejs.org/) [![Tailwind CSS](https://img.shields.io/badge/Tailwind-3-blue)](https://tailwindcss.com/) [![vue-toastification](https://img.shields.io/badge/vue--toastification-2.0.0--rc.5-green)](https://github.com/Maronato/vue-toastification) [![vue3-carousel](https://img.shields.io/badge/vue3--carousel-0.1.48-green)](https://ismail9k.github.io/vue3-carousel/) [![netlify.app](https://img.shields.io/badge/netlify-app-blue)](https://www.netlify.com/)
+[![Vue 3](https://img.shields.io/badge/vue-3-blue)](https://vuejs.org/) [![Tailwind CSS](https://img.shields.io/badge/Tailwind-3-blue)](https://tailwindcss.com/) [![netlify.app](https://img.shields.io/badge/netlify-app-blue)](https://www.netlify.com/) [![vue-toastification](https://img.shields.io/badge/vue--toastification-2.0.0--rc.5-green)](https://github.com/Maronato/vue-toastification) [![vue3-carousel](https://img.shields.io/badge/vue3--carousel-0.1.48-green)](https://ismail9k.github.io/vue3-carousel/) [![lottie-player](https://img.shields.io/badge/lotie--player-latest-green)](https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js)
 
 
 This website is intended for Technical Test only.
