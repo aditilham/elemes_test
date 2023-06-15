@@ -1,8 +1,12 @@
 <template>
-  <div class="px-5 md:px-10 relative">
-    <header-component class="py-5 md:p-10" />
-    <img class="background-img" src="@/assets/images/background.png" alt="">
-    <hero-section class="pt-32 md:pt-36 pb-96" />
+  <div class="relative">
+    <header-component class="py-5 md:p-5 px-5" />
+    <div class="relative pb-10">
+      <img class="background-img" src="@/assets/images/background.png" alt="">
+      <hero-section class="pt-32 md:pt-36 px-5 md:px-10 " />
+    </div>
+    <category-section class="pb-24" />
+
     <footer-menu class="block md:hidden" />
   </div>
 </template>
@@ -11,12 +15,14 @@
 import FooterMenu from '@/components/FooterMenu/FooterMenu.vue'
 import HeaderComponent from "../../components/Header/Header.vue"
 import HeroSection from '@/components/HeroSection/HeroSection.vue'
+import CategorySection from '@/components/CategorySection/CategorySection.vue'
 export default {
   name: "MainPage",
   components: {
     HeaderComponent,
     FooterMenu,
-    HeroSection
+    HeroSection,
+    CategorySection
   }
 
 }
@@ -29,7 +35,7 @@ export default {
   left: 0;
   top: 0;
   width: auto;
-  height: 70%;
+  height: 100%;
   z-index: -1;
   object-fit: cover;
 }

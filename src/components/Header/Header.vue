@@ -1,5 +1,5 @@
 <template>
-  <div :class="{ 'scrolled': !view.atTopOfPage, 'atTopNav': view.atTopOfPage }" class="w-full flex justify-between items-center fixed left-0 top-0 px-5 md:px-14 flex-wrap z-50">
+  <div :class="{ 'scrolled': !view.atTopOfPage, 'atTopNav': view.atTopOfPage }" class="w-full flex justify-between items-center fixed left-0 top-0 px-5 md:px-10 flex-wrap z-50">
     <div>
       <img class="w-[150px] md:w-auto" src="../../assets/images/elemes-logo.png" alt="">
     </div>
