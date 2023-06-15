@@ -16,8 +16,7 @@
     </div>
     <div class="w-full md:w-1/2 flex flex-col md:flex-row space-y-10 md:space-y-0 justify-center relative">
       <div>
-        <!-- <img :src="`../../assets/images/${heroData.image}.png`" alt=""> -->
-        <img class="w-[300px] md:w-auto rounded-full bg-[#C4C4C440] p-10" src="../../assets/images/salad.png" alt="">
+        <img class="w-[300px] md:w-auto rounded-full bg-[#C4C4C440] p-10" :src="require('@/assets/images/' + heroData.image)" alt="">
       </div>
       <text-large class="text-justify leading-7 text-[#757575] block md:hidden" text="I would think that conserving our natural resources should be a conservative position: Not to waste food, and not to throw away a lot of the food that we buy." />
       <div class="space-x-5 flex md:hidden">

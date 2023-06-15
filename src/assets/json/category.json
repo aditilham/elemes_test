@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Cupcake",
+    "total_item": "22",
+    "image": "cupcake.png",
+    "bgColor": "#F0FEEB"
+  },
+  {
+    "id": 2,
+    "name": "Pizza",
+    "total_item": "25",
+    "image": "pizza.png",
+    "bgColor": "#E6F3F5"
+  },
+  {
+    "id": 3,
+    "name": "Kebab",
+    "total_item": "12",
+    "image": "kebab.png",
+    "bgColor": "#EAEEFA"
+  },
+  {
+    "id": 4,
+    "name": "Salmon",
+    "total_item": "22",
+    "image": "salmon.png",
+    "bgColor": "#F9EEF3"
+  },
+  {
+    "id": 5,
+    "name": "Doughnut",
+    "total_item": "11",
+    "image": "doughnut.png",
+    "bgColor": "#F3F7D9"
+  },
+  {
+    "id": 6,
+    "name": "Cupcake",
+    "total_item": "22",
+    "image": "cupcake.png",
+    "bgColor": "#F0FEEB"
+  },
+  {
+    "id": 7,
+    "name": "Pizza",
+    "total_item": "25",
+    "image": "pizza.png",
+    "bgColor": "#E6F3F5"
+  },
+  {
+    "id": 8,
+    "name": "Kebab",
+    "total_item": "12",
+    "image": "kebab.png",
+    "bgColor": "#EAEEFA"
+  },
+  {
+    "id": 9,
+    "name": "Salmon",
+    "total_item": "22",
+    "image": "salmon.png",
+    "bgColor": "#F9EEF3"
+  },
+  {
+    "id": 10,
+    "name": "Doughnut",
+    "total_item": "11",
+    "image": "doughnut.png",
+    "bgColor": "#F3F7D9"
+  }
+]

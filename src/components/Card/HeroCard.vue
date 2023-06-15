@@ -1,7 +1,6 @@
 <template>
   <div class="rounded-2xl flex flex-row space-x-5 px-5 py-3 bg-[#FFFFFF74] backdrop-blur-lg">
-    <!-- <img :src="`@/assets/images/${data.image}.png`" width="53" height="53" alt=""> -->
-    <img src="@/assets/images/salad.png" width="53" height="53" alt="">
+    <img :src="require('@/assets/images/' + data.image)" width="53" height="53" alt="">
     <div class="flex flex-col justify-between">
       <text-small-semi-bold :text="data.name" />
       <text-extra-small :text="data.category" />
