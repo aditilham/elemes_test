@@ -13,9 +13,15 @@
 </template>
 
 <script>
+// G
 import GrayStar from '../Icons/GrayStar.vue'
-import YellowStar from '../Icons/YellowStar.vue'
+
+// T
 import textLargeBold from '../Text/textLargeBold.vue'
+
+// Y
+import YellowStar from '../Icons/YellowStar.vue'
+
 export default {
   components: { textLargeBold, YellowStar, GrayStar },
   name: "TrendingCard",

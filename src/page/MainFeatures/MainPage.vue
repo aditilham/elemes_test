@@ -10,14 +10,20 @@
 </template>
 
 <script>
-import HeroSection from '@/components/HeroSection/HeroSection.vue'
+// C
 import CategorySection from '@/components/CategorySection/CategorySection.vue'
+
+// H
+import HeroSection from '@/components/HeroSection/HeroSection.vue'
+
+// T
 import TrendingSection from '@/components/TrendingSection/TrendingSection.vue'
+
 export default {
   name: "MainPage",
   components: {
-    HeroSection,
     CategorySection,
+    HeroSection,
     TrendingSection,
   }
 

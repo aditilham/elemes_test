@@ -6,6 +6,7 @@
 
 <script>
 import TextSmallMd from '../Text/textSmallMd.vue'
+
 export default {
   name: "ButtonPrimarySm",
   components: {

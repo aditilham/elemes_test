@@ -38,13 +38,21 @@
 </template>
 
 <script>
+// Data
 import heroData from '../../assets/json/heroSection.json'
+
+// B
 import ButtonGraySm from '../Button/ButtonGraySm.vue'
 import ButtonPrimarySm from '../Button/ButtonPrimarySm.vue'
+
+// H
 import HeroCard from '../Card/HeroCard.vue'
+
+// T
 import TextLarge from '../Text/textLarge.vue'
+
 export default {
-  components: {TextLarge, ButtonPrimarySm, ButtonGraySm,HeroCard  },
+  components: { ButtonPrimarySm, ButtonGraySm, HeroCard, TextLarge  },
   name: "HeroSection",
   data() {
     return {

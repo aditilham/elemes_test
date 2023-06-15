@@ -7,6 +7,7 @@ import "vue-toastification/dist/index.css";
 
 
 const app = createApp(App);
+app.use(router)
 app.use(Toast, {
   transition: "Vue-Toastification__bounce",
   maxToasts: 1,
@@ -20,5 +21,4 @@ app.use(Toast, {
     return toast;
   },
 });
-app.use(router)
 app.mount("#app");

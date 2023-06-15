@@ -59,21 +59,31 @@
 </template>
 
 <script>
-import { useToast } from "vue-toastification";
+// Data
 import categoryData from '../../assets/json/category.json'
+
+// Plugins
+import { useToast } from "vue-toastification";
+
+// Icons
 import Email from '../Icons/Email.vue'
 import Instagram from '../Icons/Instagram.vue'
 import Phone from '../Icons/Phone.vue'
+
+// I
 import InputWithButton from '../Input/InputWithButton.vue'
+
+// T
 import textExtraSmall from '../Text/textExtraSmall.vue'
 import TextLargeBold from '../Text/textLargeBold.vue'
 import TextSmall from '../Text/textSmall.vue'
+
 export default {
   setup() {
     const toast = useToast();
     return { toast };
   },
-  components: { textExtraSmall, TextSmall, Instagram, Phone, Email, TextLargeBold, InputWithButton },
+  components: { Instagram, Phone, Email, InputWithButton, textExtraSmall, TextSmall, TextLargeBold },
   name: "FooterComponent",
   data() {
     return {
@@ -121,9 +131,6 @@ export default {
     }
   },
   created() {
-    this.setCategories();
-  },
-  mounted() {
     this.setCategories();
   },
 }

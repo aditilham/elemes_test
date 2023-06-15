@@ -22,11 +22,17 @@
 </template>
 
 <script>
+// Data
 import trendingData from '../../assets/json/trending.json'
+
+// B
 import ButtonPrimaryBase from '../Button/ButtonPrimaryBase.vue'
+
+// T
 import TrendingCard from '../Card/TrendingCard.vue'
+
 export default {
-  components: { TrendingCard, ButtonPrimaryBase },
+  components: { ButtonPrimaryBase, TrendingCard },
   name: "TrendingSection",
   data() {
     return {

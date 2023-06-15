@@ -8,15 +8,19 @@
 </template>
 
 <script>
+// F
 import FooterComponent from '@/components/Footer/Footer.vue'
 import FooterMenu from '@/components/FooterMenu/FooterMenu.vue'
+
+// H
 import HeaderComponent from "./components/Header/Header.vue"
+
 export default {
   name: 'App',
   components: {
-    HeaderComponent,
     FooterMenu,
-    FooterComponent
+    FooterComponent,
+    HeaderComponent
   }
 }
 </script>

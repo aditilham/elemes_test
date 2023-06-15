@@ -46,13 +46,17 @@
 </template>
 
 <script>
+// Data
 import categoryData from '../../assets/json/category.json'
-import { Carousel, Navigation, Slide } from 'vue3-carousel';
 
+// Plugins
+import { Carousel, Navigation, Slide } from 'vue3-carousel';
 import 'vue3-carousel/dist/carousel.css';
+
+// T
 import TextBase from '../Text/textBase.vue';
-import TextSmall from '../Text/textSmall.vue';
 import TextBaseBold from '../Text/textBaseBold.vue';
+import TextSmall from '../Text/textSmall.vue';
 
 export default {
   name: "CategorySection",
@@ -60,9 +64,9 @@ export default {
     Carousel,
     Slide,
     Navigation,
-    TextSmall,
     TextBase,
     TextBaseBold,
+    TextSmall,
   },
   data() {
     return {

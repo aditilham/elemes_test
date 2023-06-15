@@ -9,6 +9,7 @@
 
 <script>
 import textSmallSemiBold from '../Text/textSmallSemiBold.vue'
+
 export default {
   components: { textSmallSemiBold },
   name: "InputWithButton",

@@ -8,8 +8,12 @@
 </template>
 
 <script>
+// Icons
 import BurgerMenu from '../Icons/BurgerMenu.vue'
+
+// T
 import TextSmall from '../Text/textSmall.vue'
+
 export default {
   components: { BurgerMenu, TextSmall },
   name: "FooterMenu",
