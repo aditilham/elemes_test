@@ -13,12 +13,23 @@
 </template>
 
 <script>
+// G
+import GrayStar from '../Icons/GrayStar.vue'
+
+// T
 import TextExtraSmall from '../Text/textExtraSmall.vue'
 import textSmallSemiBold from '../Text/textSmallSemiBold.vue'
+
+// Y
 import YellowStar from '../Icons/YellowStar.vue'
-import GrayStar from '../Icons/GrayStar.vue'
+
 export default {
-  components: { textSmallSemiBold, TextExtraSmall, YellowStar, GrayStar },
+  components: {
+    GrayStar,
+    TextExtraSmall,
+    textSmallSemiBold,
+    YellowStar
+  },
   name: "HeroCard",
   props: {
     data: Object

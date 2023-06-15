@@ -6,6 +6,7 @@
 
 <script>
 import TextBase from './../Text/textBase.vue'
+
 export default {
   name: "ButtonPrimaryBase",
   components: {

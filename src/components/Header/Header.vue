@@ -38,16 +38,19 @@
         </router-link>
       </div>
     </div>
-
   </div>
 </template>
 
 <script>
+// B
 import ButtonPrimarySm from '../Button/ButtonPrimarySm.vue'
+
+// T
 import TextExtraExtraSmallBold from '../Text/textExtraExtraSmallBold.vue'
 import textSmallMd from '../Text/textSmallMd.vue'
+
 export default {
-  components: { textSmallMd, ButtonPrimarySm, TextExtraExtraSmallBold },
+  components: { ButtonPrimarySm, TextExtraExtraSmallBold, textSmallMd },
   name: "HeaderComponent",
   data() {
     return {

@@ -16,14 +16,14 @@ const routes = [
     component: MainPage
   },
 
-  // Error Page
-
+  // Coming Soon Page
   {
     path: "/coming-soon",
     name: "ComingSoon",
     component: ComingSoon,
   },
 
+  // Error Page
   {
     path: "/:catchAll(.*)",
     name: "errornotfound",
