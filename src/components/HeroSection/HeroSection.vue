@@ -4,13 +4,13 @@
       <h1 class="text-[48px] md:text-[64px] font-bold text-primary-green leading-[64px]">
         Good Food Us Good Mood
       </h1>
-      <text-large class="text-justify leading-7 text-[#757575] hidden md:block" text="I would think that conserving our natural resources should be a conservative position: Not to waste food, and not to throw away a lot of the food that we buy." />
+      <text-large class="text-justify leading-7 text-soft-gray hidden md:block" text="I would think that conserving our natural resources should be a conservative position: Not to waste food, and not to throw away a lot of the food that we buy." />
       <div class="space-x-5 hidden md:flex">
         <router-link :to="{name: 'ComingSoon'}">
           <button-primary-sm text="Daftar Sekarang" />
         </router-link>
         <router-link :to="{name: 'ComingSoon'}">
-          <button-gray-sm text="About Us" />
+          <button-gray-sm class="text-dark" text="About Us" />
         </router-link>
       </div>
     </div>
@@ -18,7 +18,7 @@
       <div>
         <img class="w-[300px] md:w-auto rounded-full bg-[#C4C4C440] p-10" :src="require('@/assets/images/' + heroData.image)" alt="">
       </div>
-      <text-large class="text-justify leading-7 text-[#757575] block md:hidden" text="I would think that conserving our natural resources should be a conservative position: Not to waste food, and not to throw away a lot of the food that we buy." />
+      <text-large class="text-justify leading-7 text-soft-gray block md:hidden" text="I would think that conserving our natural resources should be a conservative position: Not to waste food, and not to throw away a lot of the food that we buy." />
       <div class="space-x-5 flex md:hidden">
         <router-link :to="{name: 'ComingSoon'}">
           <button-primary-sm text="Daftar Sekarang" />

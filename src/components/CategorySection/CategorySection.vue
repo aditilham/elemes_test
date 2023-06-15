@@ -1,7 +1,7 @@
 <template>
   <div>
-    <h2 class="text-2xl md:text-[38px] font-bold px-5 md:px-10 py-5 leading-[30px] md:leading-[50px]">
-      Browser Our Category <br>
+    <h2 class="text-2xl md:text-[38px] text-dark font-bold px-5 md:px-10 py-5 leading-[30px] md:leading-[50px]">
+      Browse Our Category <br>
       <span class="text-primary-green">
         Receipt
       </span>
@@ -14,8 +14,8 @@
             <img v-if="getBackgroundStyle(index)" class="background-img" src="@/assets/images/background.png" alt="">
             <img width="50" height="50" :src="require('@/assets/icons/' + item.image)" alt="">
             <div class="flex flex-col space-y-1">
-              <text-base-bold :text="item.name" />
-              <text-small :text="item.total_item +  ` items`" />
+              <text-base-bold class="text-dark" :text="item.name" />
+              <text-small class="text-dark" :text="item.total_item +  ` items`" />
             </div>
           </router-link>
           </Slide>
