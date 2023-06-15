@@ -1,15 +1,22 @@
 <template>
-  <div>
-    Coming Soon
+  <div class="flex flex-row min-h-screen justify-center items-center">
+      <div class="flex flex-col items-center">
+           <div class="w-6/12 mx-auto">
+              <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_CRZ4Kavpfc.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
+          </div>
+          <div class="px-2">
+              <p class="text-dark text-4xl font-bold text-center">Coming Out Soon!</p>
+          </div>
+      </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: "ComingSoonPage"
-
+  name: 'ComingSoonPage',
 }
 </script>
 
 <style>
+
 </style>
