@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 
 // Error Page
-// import errornotfound from "../page/404Features/404Page.vue";
+import errornotfound from "../page/404Features/404Page.vue";
 
 // Coming Soon
 import ComingSoon from "../page/ComingSoonFeatures/ComingSoonPage.vue";
@@ -26,9 +26,8 @@ const routes = [
   // Error Page
   {
     path: "/:catchAll(.*)",
-    redirect: '/'
-    // name: "errornotfound",
-    // component: errornotfound,
+    name: "errornotfound",
+    component: errornotfound,
   },
 ];
 
